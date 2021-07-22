@@ -6,10 +6,11 @@ html{
 
 
 .about {
-	font-family: "Freestyle Script";
-	font-size: 35 px ;
+	font-family: "ink free"; 
+	font-size: 25px ;
 	text-align: center;
 	color: gray;
+  
 }
 ul {
   list-style-type: none;
@@ -42,7 +43,7 @@ li a:hover {
 }
 
 .header {
-	font-family: "Freestyle Script";
+	font-family: "ink free";
 	font-size: 40px;
 	text-align: center;
 	color: purple;
@@ -76,7 +77,7 @@ li a:hover {
   max-width: 200px;
   padding: 15px;
   background-color: white;
-  font-family: "Freestyle Script";
+  font-family: "ink free";
 
 }
 
@@ -88,13 +89,13 @@ li a:hover {
   background: #f1f1f1;
   resize: none;
   min-height: 100px;
-  font-family: "Freestyle Script";
+  font-family: "ink free";
 }
 
 .form-container textarea:focus {
   background-color: #ddd;
   outline: none;
-  font-family: "Freestyle Script";
+  font-family: "ink free";
 }
 
 .form-container .btn {
@@ -120,8 +121,8 @@ li a:hover {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: "Freestyle Script";
+  background-color: transparent;
+  font-family: "ink free";
   
 }
 
@@ -129,11 +130,11 @@ li a:hover {
 .navbar a {
   float: left;
   font-size: 30px;
-  color: white;
+  color: turquoise;
   text-align: center;
   padding: 5px 35px;
   text-decoration: underline;
-  font-family: "Freestyle Script";
+  font-family: "ink free";
 }
 
 /* The dropdown container */
@@ -148,44 +149,43 @@ li a:hover {
   font-size: 30px;
   border: none;
   outline: none;
-  color: white;
+  color: turquoise;
   padding: 5px 35px;
   text-decoration: underline;
-  background-color: inherit;
-  font-family: "Freestyle Script"; /* Important for vertical align on mobile phones */
+  background-color: transparent;
+  font-family: "ink free"; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: darkblue;
 }
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  font-family: "Freestyle Script";
+  font-family: "ink free";
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;
-  color: black;
+  color: dimgray;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: table-header-group;
   text-align: left;
-  font-family: "Freestyle Script";
+  font-family: "ink free";
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: darkblue;
 }
 
 /* Show the dropdown menu on hover */
