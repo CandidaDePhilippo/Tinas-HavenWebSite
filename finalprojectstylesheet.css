@@ -4,12 +4,19 @@ html{
 	height: 100%;
 }
 
-
+.background {
+  height: 100%;
+}
 .about {
 	font-family: "ink free"; 
-	font-size: 25px ;
+	font-size: 35px ;
 	text-align: center;
-	color: gray;
+	color: white;
+  font-style: italic; 
+  background-color:rgba(50, 100, 100, .7);
+   margin-right: 5%;
+  margin-left: 5%;
+  
   
 }
 ul {
@@ -46,7 +53,7 @@ li a:hover {
 	font-family: "ink free";
 	font-size: 40px;
 	text-align: center;
-	color: purple;
+	color: white;
 	}
 {box-sizing: border-box;}
 
@@ -101,7 +108,7 @@ li a:hover {
 .form-container .btn {
   background-color: #04AA6D;
   color: white;
-  padding: 16px 20px;
+  padding: 10px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -121,7 +128,7 @@ li a:hover {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: mediumpurple;
+  background-color: darkgreen;
   font-family: "ink free";
   
 }
@@ -130,9 +137,9 @@ li a:hover {
 .navbar a {
   float: left;
   font-size: 30px;
-  color: turquoise;
+  color: white;
   text-align: center;
-  padding: 5px 35px;
+  padding: 10px 85px;
   text-decoration: underline;
   font-family: "ink free";
 }
@@ -149,8 +156,8 @@ li a:hover {
   font-size: 30px;
   border: none;
   outline: none;
-  color: turquoise;
-  padding: 5px 35px;
+  color: whitesmoke;
+  padding: 10px 85px;
   text-decoration: underline;
   background-color: transparent;
   font-family: "ink free"; /* Important for vertical align on mobile phones */
@@ -191,4 +198,14 @@ li a:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.mission {
+ font-family: "Ink Free"; 
+  font-size: 50px ;
+  text-align: center;
+  color: whitesmoke; 
+  background-color:rgba(50, 100, 100, .7);
+  margin-right: 10%;
+  margin-left: 10%;
+
 }
