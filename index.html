@@ -10,10 +10,11 @@
 
 <body>
 
-<div class="background">
+<div class="background"></div>
 	<section class="mainmenu">
 	<div class="toppage">
-	<ul class="navbar">
+	<div class="navi">Menu</div>
+	<ul class="navbar"> 
 	<div class="dropdown">
 	<button class="dropbtn">📪Home🏠
 	<i class="fa fa-caret-down"></i>
@@ -26,7 +27,7 @@
 			<button class="dropbtn">📞ContactUs📧
 		  <i class="fa fa-caret-down"></i>
 		   <div class="dropdown-content">
-		   	<a href="https://accounts.google.com/" target="_blank">candida.dephilippo@maine.edu </a>
+		   	<a href="https://accounts.google.com/ServiceLogin/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">cdephilippo84@gmail.com </a>
 		   </div>
   		</div>
   		 </button> 
@@ -63,15 +64,53 @@
 	
 <div class="header">
   <h1> Welcome To Tinas'Haven!</h1>
-  <p> "Difficult Roads Often Lead to Beautiful Destinations!" </p>
+  <p class="quote"> "Difficult Roads Often Lead to Beautiful Destinations!" </p>
   <div class="logo"> <img src="Tinas'Haven1.jpg" style="width: 300px; height: 300px;">
   </div>
 		
 
 </div>
-<p class="about"> My website is designed to best suit your needs without putting in all the effort yourself, I know how overwhelming it can be and how easy it is to give up. This is a website designed to help you; better help yourself and family. Are you or do you have a teenager struggling with homelesness, runaways, who may or may not have a substance use problem that you do not know how to help? Do you need more information, resources, guidance, a place to hangout, shower, chill, eat and even counseling as well...We are here to HELP!</p> 
+<p class="about"> My website is completely FREE NO MEMBERSHIP NEEDED. However, I would like to say that Tinas'Haven is stricly a NON-PROFIT organization run by donations. If you can donate and would like to donate anything for a household such as; non parishables, clothes, shoes, bedding, toiletries etc etc, please feel free to contact me at my email. Furthermore, this is a website designed to best suit your needs without putting in all the effort yourself, I know how overwhelming it can be and how easy it is to give up. This is a website designed to help you; better help yourself and family. Are you or do you have a teenager struggling with homelesness, being a runaway, who may or may not have a substance use problem, that you do not know how to help? Do you need more information, resources, guidance, a place to hangout, shower, chill, eat and even counseling...We are here to HELP!</p> 
 </div>
-  
+<script type="text/javascript">
+navbarelement=document.getElementsByClassName('navbar')[0]
+navielement=document.getElementsByClassName('navi')[0]
+
+object= window;
+menu=false
+myScript=function(){ 
+if (window.innerWidth<700){
+navbarelement.style.display="none"
+navielement.style.display="block"
+
+
+}
+else{
+	navbarelement.style.display="block"
+	navielement.style.display="none"
+}
+
+ }
+ shownavi=function(){
+if (menu){
+navbarelement.style.display="none"
+menu=false
+}
+else{navbarelement.style.display="block"
+menu=true
+
+}
+
+
+
+}
+
+navielement.addEventListener("click", shownavi);	
+object.addEventListener("resize", myScript);
+myScript()
+</script>
+
+</body> 
 </html>
 
-</body>
+
