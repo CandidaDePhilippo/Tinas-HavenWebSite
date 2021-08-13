@@ -1,0 +1,62 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+html {
+	height: 100%;
+	width: 100%;
+}
+
+.title {
+	font-family: "ink free";
+	font-size: 30px;
+	color: white;
+	background-color:rgba(50, 60, 70, .4);
+	text-shadow: 2px 2px 5px red;
+}
+.pg1{
+	font-family: "ink free";
+	font-size: 20px;
+	color: white;
+	background-color:rgba(50, 60, 70, .4);
+	text-shadow: 2px 2px 5px red;
+
+}
+
+.pg2 {
+	font-family: "ink free";
+	font-size: 20px;
+	color: white;
+	background-color:rgba(50, 60, 70, .4);
+	text-shadow: 2px 2px 5px red;
+}
+
+.pg3 {
+	font-family: "ink free";
+	font-size: 20px;
+	color: white;
+	background-color:rgba(50, 60, 70, .4);
+	text-shadow: 2px 2px 5px red;
+}
+
+.pg4 {
+
+	font-family: "ink free";
+	font-size: 20px;
+	color: white;
+	background-color:rgba(50, 60, 70, .4);
+	text-shadow: 2px 2px 5px red;
+}
+
+
+.background {
+  height: 225%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1000000;
+  background-attachment: fixed;
+  }
