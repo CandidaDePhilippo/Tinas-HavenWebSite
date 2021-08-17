@@ -1,6 +1,10 @@
 body {
-	padding: 0;
-	margin: 0;
+  background-color: black;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+
 }
 html {
 	height: 100%;
@@ -11,15 +15,19 @@ html {
 	font-family: "ink free";
 	font-size: 30px;
 	color: white;
-	background-color:rgba(50, 60, 70, .4);
 	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	margin: 4em;
+
 }
+
 .pg1{
 	font-family: "ink free";
 	font-size: 20px;
 	color: white;
-	background-color:rgba(50, 60, 70, .4);
 	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	margin: 4em;
 
 }
 
@@ -27,16 +35,18 @@ html {
 	font-family: "ink free";
 	font-size: 20px;
 	color: white;
-	background-color:rgba(50, 60, 70, .4);
 	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	margin: 4em;
 }
 
 .pg3 {
 	font-family: "ink free";
 	font-size: 20px;
 	color: white;
-	background-color:rgba(50, 60, 70, .4);
 	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	margin: 4em;
 }
 
 .pg4 {
@@ -44,19 +54,20 @@ html {
 	font-family: "ink free";
 	font-size: 20px;
 	color: white;
-	background-color:rgba(50, 60, 70, .4);
 	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	margin: 4em;
 }
 
 
 .background {
-  height: 225%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -1000000;
-  background-attachment: fixed;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+}
+
+
+
+  
