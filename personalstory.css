@@ -84,5 +84,13 @@ text-decoration-color: black;
   background-color: red;
   color: black;
 }
- 
+.headline {
+	font-family: "ink free";
+	font-size: 30px;
+	color: white;
+	text-shadow: 2px 2px 5px red;
+	text-align: center;
+	align-items: center;
+	margin: 4em;
+}
 
