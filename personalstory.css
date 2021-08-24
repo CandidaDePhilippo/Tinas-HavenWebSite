@@ -17,47 +17,17 @@ html {
 	color: white;
 	text-shadow: 2px 2px 5px red;
 	text-align: center;
-	margin: 4em;
+	
 
 }
 
-.pg1{
+.pg1, .pg2, .pg3, .pg4{
 	font-family: "ink free";
 	font-size: 30px;
 	color: white;
 	text-shadow: 2px 2px 5px red;
-	text-align: center;
-	margin: 4em;
-
-}
-
-.pg2 {
-	font-family: "ink free";
-	font-size: 30px;
-	color: white;
-	text-shadow: 2px 2px 5px red;
-	text-align: center;
-	margin: 4em;
-}
-
-.pg3 {
-	font-family: "ink free";
-	font-size: 30px;
-	color: white;
-	text-shadow: 2px 2px 5px red;
-	text-align: center;
-	margin: 4em;
-}
-
-.pg4 {
-
-	font-family: "ink free";
-	font-size: 30px;
-	color: white;
-	text-shadow: 2px 2px 5px red;
-	text-align: center;
-	align-items: center;
-	margin: 4em;
+	text-align: left;
+	
 }
 
 
@@ -68,14 +38,16 @@ html {
 
 }
 
+.btn {
+	text-align: center;
+}
 .button {
 font-size: 30px;
 border-radius: 12px;
 transition-duration: 0.4s;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-align-items: center;
-text-align: center;
-text-decoration-color: black;
+background-color: transparent;
+color: red;
 
 
 }
@@ -93,3 +65,6 @@ text-decoration-color: black;
 	color: white;
 }
 
+.homepage {
+	color: red;
+}
