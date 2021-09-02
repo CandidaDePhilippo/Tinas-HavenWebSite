@@ -20,7 +20,7 @@
 			<button class="dropbtn">📞ContactUs📧
 		  <i class="fa fa-caret-down"></i>
 		   <div class="dropdown-content">
-		   	<a href="https://accounts.google.com/ServiceLogin/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">cdephilippo84@gmail.com </a>
+		   	<a href="https://accounts.google.com/ServiceLogin/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">email.email@email.com </a>
 		   </div>
   		</div>
   		 </button> 
@@ -72,28 +72,29 @@ navielement=document.getElementsByClassName('navi')[0]
 object= window;
 menu=false
 myScript=function(){ 
-if (window.innerWidth<700){
-navbarelement.style.display="none"
-navielement.style.display="block"
+	if (window.innerWidth<700){
+		navbarelement.style.display="none"
+		navielement.style.display="block"
 
 
-}
-else{
-	navbarelement.style.display="block"
-	navielement.style.display="none"
-}
-
- }
- shownavi=function(){
-if (menu){
-navbarelement.style.display="none"
-menu=false
-}
-else{navbarelement.style.display="block"
-menu=true
+	}
+	else{
+		navbarelement.style.display="block"
+		navielement.style.display="none"
+	}
 
 }
 
+
+shownavi=function(){
+	if (menu){
+		navbarelement.style.display="none"
+		menu=false
+	}
+	else{navbarelement.style.display="block"
+		menu=true
+
+	}
 
 
 }
